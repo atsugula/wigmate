@@ -11,7 +11,6 @@ use Illuminate\Database\Eloquent\Model;
  * @property $id
  * @property $nombre
  * @property $marca
- * @property $nivel
  * @property $codigo
  * @property $precio_costo
  * @property $precio_venta
@@ -33,7 +32,6 @@ class Producto extends Model
     static $rules = [
 		'nombre' => 'required',
 		'marca' => 'required',
-		'nivel' => 'required',
 		'codigo' => 'required',
 		'precio_costo' => 'required',
 		'precio_venta' => 'required',
@@ -50,7 +48,7 @@ class Producto extends Model
      *
      * @var array
      */
-    protected $fillable = ['nombre','marca','nivel','codigo','precio_costo','precio_venta','observaciones','id_categoria','id_proveedor','stock','porcentaje'];
+    protected $fillable = ['nombre','marca','codigo','precio_costo','precio_venta','observaciones','id_categoria','id_proveedor','stock','porcentaje'];
 
 
     /**

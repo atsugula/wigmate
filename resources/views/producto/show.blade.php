@@ -28,10 +28,6 @@
                             {{ $producto->nombre }}
                         </div>
                         <div class="form-group">
-                            <strong>{{__('Level')}}:</strong>
-                            {{ $producto->nivel }}
-                        </div>
-                        <div class="form-group">
                             <strong>{{__('Category')}}:</strong>
                             {{ $producto->categoria->nombre }}
                         </div>

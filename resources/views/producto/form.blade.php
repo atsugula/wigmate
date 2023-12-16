@@ -34,18 +34,11 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-12">
                 <div class="form-group">
                     {{ Form::label('marca',__('Branch')) }}
                     {{ Form::text('marca', $producto->marca, ['class' => 'form-control' . ($errors->has('marca') ? ' is-invalid' : ''), 'placeholder' => __('Branch')]) }}
                     {!! $errors->first('marca', '<div class="invalid-feedback">:message</div>') !!}
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="form-group">
-                    {{ Form::label('nivel',__('Level')) }}
-                    {{ Form::text('nivel', $producto->nivel, ['class' => 'form-control' . ($errors->has('nivel') ? ' is-invalid' : ''), 'placeholder' => __('Level')]) }}
-                    {!! $errors->first('nivel', '<div class="invalid-feedback">:message</div>') !!}
                 </div>
             </div>
         </div>

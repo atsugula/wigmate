@@ -23,7 +23,6 @@ class ProductoSeeder extends Seeder
             'porcentaje' => 0,
             'precio_venta' => 0,
             'stock' => 1000000,
-            'nivel' => 'N/A',
             'id_categoria' => 1,
             'id_proveedor' => 1,
             'marca' => 'N/A',

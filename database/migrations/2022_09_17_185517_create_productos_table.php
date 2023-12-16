@@ -17,7 +17,6 @@ return new class extends Migration
             $table->id();
             $table->string('nombre', 190);
             $table->string('marca', 190)->nullable();
-            $table->string('nivel', 50);
             $table->string('codigo', 190);
             $table->double('precio_costo');
             $table->double('precio_venta');

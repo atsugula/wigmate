@@ -14,7 +14,6 @@
                 <th class="alineacion-left">Categoria</th>
                 <th class="alineacion-left">Stock</th>
                 <th class="alineacion-left">Estantería</th>
-                <th class="alineacion-left">Nivel</th>
             </tr>
         </thead>
         <tbody>
@@ -32,7 +31,6 @@
                     <td>{{ $producto->categoria->nombre }}</td>
                     <td>{{ $producto->stock }}</td>
                     <td>{{ $producto->estanteria }}</td>
-                    <td>{{ $producto->nivel }}</td>
                 </tr>
 
             @endforeach
