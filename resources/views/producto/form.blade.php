@@ -43,13 +43,6 @@
             </div>
             <div class="col-12 col-md-4">
                 <div class="form-group">
-                    {{ Form::label('estanteria',__('Shelf')) }}
-                    {{ Form::text('estanteria', $producto->estanteria, ['class' => 'form-control' . ($errors->has('estanteria') ? ' is-invalid' : ''), 'placeholder' => __('Shelf')]) }}
-                    {!! $errors->first('estanteria', '<div class="invalid-feedback">:message</div>') !!}
-                </div>
-            </div>
-            <div class="col-12 col-md-4">
-                <div class="form-group">
                     {{ Form::label('nivel',__('Level')) }}
                     {{ Form::text('nivel', $producto->nivel, ['class' => 'form-control' . ($errors->has('nivel') ? ' is-invalid' : ''), 'placeholder' => __('Level')]) }}
                     {!! $errors->first('nivel', '<div class="invalid-feedback">:message</div>') !!}

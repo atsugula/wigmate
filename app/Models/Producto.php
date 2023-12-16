@@ -15,7 +15,6 @@ use Illuminate\Database\Eloquent\Model;
  * @property $codigo
  * @property $precio_costo
  * @property $precio_venta
- * @property $estanteria
  * @property $observaciones
  * @property $id_categoria
  * @property $id_proveedor
@@ -40,7 +39,6 @@ class Producto extends Model
 		'precio_venta' => 'required',
 		'porcentaje' => 'required',
 		'stock' => 'required',
-		'estanteria' => 'required',
 		'id_categoria' => 'required',
 		'id_proveedor' => 'required',
     ];
@@ -52,7 +50,7 @@ class Producto extends Model
      *
      * @var array
      */
-    protected $fillable = ['nombre','marca','nivel','codigo','precio_costo','precio_venta','estanteria','observaciones','id_categoria','id_proveedor','stock','porcentaje'];
+    protected $fillable = ['nombre','marca','nivel','codigo','precio_costo','precio_venta','observaciones','id_categoria','id_proveedor','stock','porcentaje'];
 
 
     /**
