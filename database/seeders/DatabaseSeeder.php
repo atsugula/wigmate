@@ -22,6 +22,7 @@ class DatabaseSeeder extends Seeder
             ProductoSeeder::class,
             TipoGastoSeeder::class,
             UserSeeder::class, */
+            UserSeeder::class,
             DataSystemSeeder::class,
         ]);
     }
