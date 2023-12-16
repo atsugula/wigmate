@@ -15,8 +15,8 @@ return new class extends Migration
     {
         Schema::create('configuraciones', function (Blueprint $table) {
             $table->id();
-            $table->string('icono');
-            $table->string('img_auth');
+            $table->string('icono', 190);
+            $table->string('img_auth', 190);
             $table->char('logo_auth')->default('1');
         });
     }

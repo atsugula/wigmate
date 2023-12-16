@@ -5,7 +5,6 @@
             <th><b>CODIGO</b></th>
             <th><b>CATEGORIA</b></th>
             <th><b>NOMBRE</b></th>
-            <th><b>ESTANTERIA</b></th>
             <th><b>NIVEL</b></th>
             <th><b>MARCA</b></th>
             <th><b>STOCK</b></th>
@@ -21,7 +20,6 @@
                 <td>{{ $producto->codigo }}</td>
                 <td>{{ $producto->categoria->nombre }}</td>
                 <td>{{ $producto->nombre }}</td>
-                <td>{{ $producto->estanteria }}</td>
                 <td>{{ $producto->nivel }}</td>
                 <td>{{ $producto->marca }}</td>
                 <td>{{ $producto->stock ?? '0' }}</td>

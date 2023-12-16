@@ -36,7 +36,6 @@
 										<th>{{__('Name')}}</th>
 										<th>{{__('Branch')}}</th>
 										<th>{{__('Code')}}</th>
-										<th>{{__('Shelf')}}</th>
 										<th>{{__('Level')}}</th>
 										<th>{{__('Stock')}}</th>
 										<th>{{__('Sale price')}}</th>
@@ -51,7 +50,6 @@
 											<td>{{ $producto->nombre }}</td>
 											<td>{{ $producto->marca }}</td>
 											<td>{{ $producto->codigo }}</td>
-											<td>{{ $producto->estanteria }}</td>
 											<td>{{ $producto->nivel }}</td>
 											<td>{{ $producto->stock }}</td>
 											<td>{{ $producto->precio_venta }}</td>
