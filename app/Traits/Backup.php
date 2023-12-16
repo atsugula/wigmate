@@ -8,10 +8,12 @@ trait Backup
     public static function generar(){
 
         // Variables para la conexion a la base de datos, mysqldump
-        $db_host=env('DB_HOST', 'localhost');
-        $db_name=env('DB_DATABASE', 'serviego');
-        $db_user=env('DB_USERNAME', 'root');
-        $db_password=env('DB_PASSWORD', '');
+        dd([
+            'DB_HOST' => env('DB_HOST', 'localhost'),
+            'DB_DATABASE' => env('DB_DATABASE', 'serviego'),
+            'DB_USERNAME' => env('DB_USERNAME', 'root'),
+            'DB_PASSWORD' => env('DB_PASSWORD', ''),
+        ]);
 
         // Para identificar nuestro respaldo
         $fecha = date('Ymd-His');
