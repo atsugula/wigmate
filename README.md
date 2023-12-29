@@ -17,3 +17,9 @@ _Installation composer_
 ```
 composer install
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=atsugula/wigmate&type=Date)](https://star-history.com/#atsugula/wigmate&Date)
+
+
